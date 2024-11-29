@@ -5,12 +5,15 @@
     "nextra": "3.0.0",
     "nextra-theme-blog": "3.0.0",
     "nextra-theme-docs": "3.0.0",
-    "esbuild-react-compiler-plugin": "0.0.0"
+    "esbuild-react-compiler-plugin": "0.0.0",
+    "@nextra/eslint-config": "0.0.0",
+    "@nextra/prettier-config": "0.0.0"
   },
   "changesets": [
     "afraid-pens-teach",
     "afraid-yaks-kick",
     "angry-books-remember",
+    "blue-crabs-deny",
     "calm-dolphins-swim",
     "calm-knives-shave",
     "calm-lemons-poke",
