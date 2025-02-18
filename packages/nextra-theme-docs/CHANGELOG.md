@@ -1,5 +1,29 @@
 # nextra-theme-docs
 
+## 4.2.13
+
+### Patch Changes
+
+- Updated dependencies [fc4035c]
+- Updated dependencies [fc4035c]
+  - nextra@4.2.13
+
+## 4.2.12
+
+### Patch Changes
+
+- 23b1c48: increate z-index for `type: menu` dropdown from `20` to `30`
+  - nextra@4.2.12
+
+## 4.2.11
+
+### Patch Changes
+
+- 8805d3f: - add `overflow: hidden` on `<html>` element instead of `<body>` to lock scroll when mobile nav is open
+  - increase z-index for mobile nav from `10` to `20`, in navbar from `20` to `30`
+  - fix navbar alignement on mobile when `Navbar.align` prop is set to `left`
+  - nextra@4.2.11
+
 ## 4.2.10
 
 ### Patch Changes

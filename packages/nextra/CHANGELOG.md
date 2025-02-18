@@ -1,5 +1,16 @@
 # nextra
 
+## 4.2.13
+
+### Patch Changes
+
+- fc4035c: add code block icon for `svelte` language
+- fc4035c: increase `z-index` for banner to `30` to fix hidden banner when mobile nav is open
+
+## 4.2.12
+
+## 4.2.11
+
 ## 4.2.10
 
 ### Patch Changes
