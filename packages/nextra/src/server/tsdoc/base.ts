@@ -3,7 +3,13 @@ import { Project, ts } from 'ts-morph'
 
 const project = new Project({
   tsConfigFilePath: './tsconfig.json',
-  skipAddingFilesFromTsConfig: true
+  skipAddingFilesFromTsConfig: true,
+  compilerOptions: {
+    // Do not show `undefined` value in type for optional value
+    exactOptionalPropertyTypes: true,
+    // Show `null` value in type if exist
+    strictNullChecks: true
+  }
 })
 
 const { compilerObject } = project.getTypeChecker()
@@ -114,9 +120,10 @@ function getDocEntry(
       .getJsDocTags()
       .map(tag => [tag.getName(), ts.displayPartsToString(tag.getText())])
   )
-  let typeName = subType
-    .getNonNullableType()
-    .getText(undefined, ts.TypeFormatFlags.UseAliasDefinedOutsideCurrentScope)
+  let typeName = subType.getText(
+    undefined,
+    ts.TypeFormatFlags.UseAliasDefinedOutsideCurrentScope
+  )
 
   const aliasSymbol = subType.getAliasSymbol()
 

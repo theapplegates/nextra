@@ -11,6 +11,9 @@
     "@nextra/tsdoc": "0.0.0"
   },
   "changesets": [
+    "lazy-pugs-tie",
+    "lovely-webs-wash",
+    "lucky-apes-teach",
     "rich-symbols-wash"
   ]
 }

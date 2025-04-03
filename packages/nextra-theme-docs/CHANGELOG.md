@@ -1,5 +1,29 @@
 # nextra-theme-docs
 
+## 4.3.0-alpha.3
+
+### Patch Changes
+
+- Updated dependencies [f717156]
+  - nextra@4.3.0-alpha.3
+
+## 4.3.0-alpha.2
+
+### Patch Changes
+
+- 8ac2506: chore: bump `babel-plugin-react-compiler` and
+  `react-compiler-runtime`, remove custom pnpm patch for
+  `babel-plugin-react-compiler`
+- Updated dependencies [8ac2506]
+  - nextra@4.3.0-alpha.2
+
+## 4.3.0-alpha.1
+
+### Patch Changes
+
+- Updated dependencies [9f449e5]
+  - nextra@4.3.0-alpha.1
+
 ## 4.3.0-alpha.0
 
 ### Minor Changes
