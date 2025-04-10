@@ -5,19 +5,14 @@ icon: WarningIcon
 ---
 
 import { Callout } from 'nextra/components'
-import { InformationCircleIcon } from 'nextra/icons'
 
-# `<Callout>` Component
+# Callout Component
 
 {metadata.description}.
 
 ## Props
 
-<TSDoc
-  code={`import type { Callout } from 'nextra/components'
-type $ = React.ComponentProps<typeof Callout>
-export default $`}
-/>
+<APIDocs componentName="Callout" />
 
 ## Example
 
@@ -37,62 +32,88 @@ export default $`}
   A **callout** is a short piece of text intended to attract attention.
 </Callout>
 
+<Callout type="important">
+  A **callout** is a short piece of text intended to attract attention.
+</Callout>
+
 ## Usage
 
 ### Default
 
-<Callout emoji="👾">
-  **Space Invaders** is a 1978 shoot 'em up arcade game developed by Tomohiro
-  Nishikado.
-</Callout>
+<Callout>Helpful advice for doing things better or more easily.</Callout>
 
 ```mdx
 import { Callout } from 'nextra/components'
 
-<Callout emoji="👾">
-  **Space Invaders** is a 1978 shoot 'em up arcade game developed by Tomohiro
-  Nishikado.
-</Callout>
+<Callout>Helpful advice for doing things better or more easily.</Callout>
 ```
 
 ### Info
 
-<Callout type="info" emoji="ℹ️">
-  Today is Friday.
+<Callout type="info">
+  Useful information that users should know, even when skimming content.
 </Callout>
 
 ```mdx
 import { Callout } from 'nextra/components'
 
-<Callout type="info" emoji="ℹ️">
-  Today is Friday.
+<Callout type="info">
+  Useful information that users should know, even when skimming content.
 </Callout>
 ```
 
 ### Warning
 
-<Callout type="warning" emoji="⚠️">
-  This API will be deprecated soon.
+<Callout type="warning">
+  Urgent info that needs immediate user attention to avoid problems.
 </Callout>
 
 ```mdx
 import { Callout } from 'nextra/components'
 
-<Callout type="warning" emoji="⚠️">
-  This API will be deprecated soon.
+<Callout type="warning">
+  Urgent info that needs immediate user attention to avoid problems.
 </Callout>
 ```
 
 ### Error
 
-<Callout type="error" emoji="🚫">
-  This is a dangerous feature that can cause everything to explode.
+<Callout type="error">
+  Advises about risks or negative outcomes of certain actions.
 </Callout>
 
 ```mdx
 import { Callout } from 'nextra/components'
 
-<Callout type="error" emoji="️🚫">
-  This is a dangerous feature that can cause everything to explode.
+<Callout type="error">
+  Advises about risks or negative outcomes of certain actions.
+</Callout>
+```
+
+### Important
+
+<Callout type="important">
+  Key information users need to know to achieve their goal.
+</Callout>
+
+```mdx
+import { Callout } from 'nextra/components'
+
+<Callout type="important">
+  Key information users need to know to achieve their goal.
+</Callout>
+```
+
+### Custom icon
+
+<Callout type="info" emoji="⭐">
+  Nextra has 13k stars on GitHub!
+</Callout>
+
+```mdx
+import { Callout } from 'nextra/components'
+
+<Callout type="info" emoji="⭐">
+  Nextra has 13k stars on GitHub!
 </Callout>
 ```

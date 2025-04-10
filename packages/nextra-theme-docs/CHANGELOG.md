@@ -1,5 +1,110 @@
 # nextra-theme-docs
 
+## 4.3.0-alpha.12
+
+### Patch Changes
+
+- 40267dc: split `TSDoc` component logic to `TSDoc` component and
+  `generateDocumentation` function
+
+  update https://nextra.site/docs/built-ins/tsdoc documentation
+
+- Updated dependencies [40267dc]
+  - nextra@4.3.0-alpha.12
+
+## 4.3.0-alpha.11
+
+### Patch Changes
+
+- 71f7b3f: Update https://nextra.site/docs/guide/search page
+
+  Fixes extra margin-top inside `Tabs.Tab`
+
+  Fix breaking `<Steps>` component numeration when there is `<Tabs>` component
+  inside
+
+- Updated dependencies [71f7b3f]
+  - nextra@4.3.0-alpha.11
+
+## 4.3.0-alpha.10
+
+### Minor Changes
+
+- fdeb5fe: feat: add new Layout prop `feedback.link` to customize feedback href
+
+### Patch Changes
+
+- nextra@4.3.0-alpha.10
+
+## 4.3.0-alpha.9
+
+### Minor Changes
+
+- 94b081c: feat: refactor `<Search>` component styles for improved transitions
+  and visibility
+
+### Patch Changes
+
+- Updated dependencies [94b081c]
+  - nextra@4.3.0-alpha.9
+
+## 4.3.0-alpha.8
+
+### Minor Changes
+
+- c134abe: feat: improve overall accessibility, makes text/colors easier to read
+  and achieves WCAG Level AAA compliance in many places
+
+### Patch Changes
+
+- Updated dependencies [c134abe]
+  - nextra@4.3.0-alpha.8
+
+## 4.3.0-alpha.7
+
+### Minor Changes
+
+- 07debf9: feat(TSDoc): support flattening return object fields
+
+### Patch Changes
+
+- Updated dependencies [07debf9]
+  - nextra@4.3.0-alpha.7
+
+## 4.3.0-alpha.6
+
+### Patch Changes
+
+- a070fdc: Fix `[object Object]` text on hovering breadcrumbs and pagination
+  links
+  - nextra@4.3.0-alpha.6
+
+## 4.3.0-alpha.5
+
+### Minor Changes
+
+- eed8328: feat: adapt colors and icons from original GitHub alerts syntax
+
+  feat: new Callout type `important`
+
+  fix: inconsistent built-in Callout's icons size
+
+  feat: improve Callout's accessibility colors
+
+### Patch Changes
+
+- Updated dependencies [eed8328]
+  - nextra@4.3.0-alpha.5
+
+## 4.3.0-alpha.4
+
+### Patch Changes
+
+- 4547eb9: feat(TSDoc): add support for functions and functions with multiple
+  signatures
+- Updated dependencies [4547eb9]
+  - nextra@4.3.0-alpha.4
+
 ## 4.3.0-alpha.3
 
 ### Patch Changes
