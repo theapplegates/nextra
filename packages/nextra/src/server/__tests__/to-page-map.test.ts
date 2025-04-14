@@ -88,6 +88,7 @@ describe('generatePageMap()', () => {
       [
         "app/_meta.global.tsx",
         "app/about/page.mdx",
+        "app/api/page.mdx",
         "app/blog/page.mdx",
         "app/docs/advanced/customize-the-cascade-layers/page.mdx",
         "app/docs/advanced/latex/page.mdx",
@@ -157,6 +158,11 @@ describe('generatePageMap()', () => {
           "__pagePath": "app/about/page.mdx",
           "name": "about",
           "route": "/about",
+        },
+        {
+          "__pagePath": "app/api/page.mdx",
+          "name": "api",
+          "route": "/api",
         },
         {
           "__pagePath": "app/blog/page.mdx",
@@ -523,6 +529,7 @@ describe('generatePageMap()', () => {
         "import { normalizePageMap, mergeMetaWithPageMap, getMetadata } from 'nextra/page-map'
         import globalMeta from 'private-next-root-dir/app/_meta.global.tsx'
         import {metadata as app_about_page} from "private-next-root-dir/app/about/page.mdx?metadata";
+        import {metadata as app_api_page} from "private-next-root-dir/app/api/page.mdx?metadata";
         import {metadata as app_blog_page} from "private-next-root-dir/app/blog/page.mdx?metadata";
         import {metadata as app_docs_advanced_customize_the_cascade_layers_page} from "private-next-root-dir/app/docs/advanced/customize-the-cascade-layers/page.mdx?metadata";
         import {metadata as app_docs_advanced_latex_page} from "private-next-root-dir/app/docs/advanced/latex/page.mdx?metadata";
@@ -589,6 +596,10 @@ describe('generatePageMap()', () => {
           name: "about",
           route: "/about",
           frontMatter: app_about_page
+        }, {
+          name: "api",
+          route: "/api",
+          frontMatter: app_api_page
         }, {
           name: "blog",
           route: "/blog",

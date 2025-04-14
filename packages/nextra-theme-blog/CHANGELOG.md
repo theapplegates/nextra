@@ -1,5 +1,69 @@
 # nextra-theme-blog
 
+## 4.3.0-alpha.19
+
+### Patch Changes
+
+- 407e0c4: feat(TSDoc): add `TSDoc.noParametersContent` prop
+- Updated dependencies [407e0c4]
+  - nextra@4.3.0-alpha.19
+
+## 4.3.0-alpha.18
+
+### Patch Changes
+
+- Updated dependencies [7de40fb]
+- Updated dependencies [00f4696]
+- Updated dependencies [31ddba4]
+  - nextra@4.3.0-alpha.18
+
+## 4.3.0-alpha.17
+
+### Patch Changes
+
+- nextra@4.3.0-alpha.17
+
+## 4.3.0-alpha.16
+
+### Patch Changes
+
+- nextra@4.3.0-alpha.16
+
+## 4.3.0-alpha.15
+
+### Patch Changes
+
+- b2cba90: improve TSDoc comments for `getPageMap`, `generateStaticParamsFor`
+  and `importPage` functions. Add new https://nextra.site/docs/guide/api page.
+- Updated dependencies [b2cba90]
+  - nextra@4.3.0-alpha.15
+
+## 4.3.0-alpha.14
+
+### Patch Changes
+
+- a506e0b: fix `TypeError: page.generateMetadata is not a function` when using
+  with `withSentryConfig` plugin
+- Updated dependencies [a506e0b]
+  - nextra@4.3.0-alpha.14
+
+## 4.3.0-alpha.13
+
+### Patch Changes
+
+- 47ba5f3: fix: use `em` for padding-y, padding-x and border-radius styles of
+  `<Code>` element
+
+  fix(TSDoc): for return signature without `name` return mobile card instead of
+  table
+
+  feat: use `em` instead `rem` for margins
+
+- d29469e: support Next.js 15.3.0
+- Updated dependencies [47ba5f3]
+- Updated dependencies [d29469e]
+  - nextra@4.3.0-alpha.13
+
 ## 4.3.0-alpha.12
 
 ### Patch Changes

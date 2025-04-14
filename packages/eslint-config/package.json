@@ -9,10 +9,10 @@
   "dependencies": {
     "@eslint/compat": "1.2.8",
     "@eslint/js": "9.24.0",
-    "@next/eslint-plugin-next": "15.2.4",
-    "eslint-config-prettier": "10.1.1",
+    "@next/eslint-plugin-next": "15.3.0",
+    "eslint-config-prettier": "10.1.2",
     "eslint-plugin-de-morgan": "1.2.1",
-    "eslint-plugin-import-x": "4.10.2",
+    "eslint-plugin-import-x": "4.10.3",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-compiler": "0.0.0-experimental-e993439-20250328",
     "eslint-plugin-react-hooks": "5.2.0",

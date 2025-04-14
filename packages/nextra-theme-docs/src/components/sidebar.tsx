@@ -108,7 +108,11 @@ const Folder: FC<FolderProps> = ({ item: _item, anchors, onFocus, level }) => {
       event.preventDefault()
     }
     const isOpen = el.parentElement!.classList.contains('open')
-    TreeState[item.route] = !isOpen
+    // We don't toggle it if it's:
+    // - a link
+    // - not a click on icon
+    // - not active link
+    TreeState[item.route] = (isLink && !isClickOnIcon && !active) || !isOpen
     rerender({})
   }
 
@@ -422,7 +426,7 @@ export const Sidebar: FC = () => {
           'nextra-sidebar x:print:hidden',
           'x:transition-all x:ease-in-out',
           'x:max-md:hidden x:flex x:flex-col',
-          'x:h-[calc(100dvh-var(--nextra-menu-height))]',
+          'x:h-[calc(100dvh-var(--nextra-navbar-height))]',
           'x:top-(--nextra-navbar-height) x:shrink-0',
           isExpanded ? 'x:w-64' : 'x:w-20',
           hideSidebar ? 'x:hidden' : 'x:sticky'
